@@ -1,14 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  <link rel="shortcut icon" href="src/img/fabicon.png" type="image/x-icon">
-  <title>EdupathWay</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="shortcut icon" href="src/img/fabicon.png" type="image/x-icon">
+    <title>EdupathWay</title>
+  </head>
+  <body>
+    <!-- Header part for Website -->
+    <header>
+      <nav class="overflow-x-hidden bg-white py-5 dark:bg-gray-900 w-full fixed z-50">
+        <div class="container mx-auto flex items-center justify-between">
+          <div>
+            <img src="src/img/logo.png" alt="logo" class="cursor-pointer hover:scale-125 hover:transition" />
+          </div>
+          <!-- Desktop Menu -->
+          <div class="">
+            <ul class="gap-4 text-[#072125] font-semibold cursor-pointer hidden md:flex dark:text-white">
+              <li class="nav">Home</li>
+              <li class="nav">About Us</li>
+              <li class="navv">Upskill</li>
+              <li class="nav">Contact us</li>
+            </ul>
+          </div>
+          <!-- Hamburger Button (Mobile) -->
+          <button id="hamburger" class="md:hidden flex flex-col justify-center items-center w-10 h-10">
+            <span class="block w-7 h-1 bg-[#072125] dark:bg-white mb-1 rounded transition-all"></span>
+            <span class="block w-7 h-1 bg-[#072125] dark:bg-white mb-1 rounded transition-all"></span>
+            <span class="block w-7 h-1 bg-[#072125] dark:bg-white rounded transition-all"></span>
+          </button>
+          <div class="flex gap-5">
+            <button
+              class="hover:scale-105 transition-all bg-[#F44335] text-white px-3 rounded-[8px] font-light hover:bg-[#be95c4] hover:text-[#ffffff]">
+              Register Interest </button>
+            <button id="switch">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="size-10 dark:stroke-white hover:scale-110 transition-all cursor-pointer">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobileMenu"
+          class="md:hidden bg-white dark:bg-gray-900 w-full absolute left-0 top-full shadow-lg hidden">
+          <ul class="flex flex-col gap-4 p-4 text-[#072125] font-semibold dark:text-white">
+            <li class="nav">Home</li>
+            <li class="nav">About Us</li>
+            <li class="navv">Upskill</li>
+            <li class="nav">Contact us</li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- header section end -->
+    <!-- steart hero section -->
+    <section class="w-full bg-[url('/src/img/bg.png')] bg-no-repeat bg-center bg-cover">
+      <div
+        class="w-full rounded-lg bg-[url('/src/img/bg.png')] bg-no-repeat bg-center bg-cover border-l-8 border-red-600 pb-4 md:pb-0">
+        <div class="flex flex-col justify-center items-center space-y-5 md:space-y-14 pt-24 md:pt-44 text-center">
+          <h3 class="text-white font-medium whitespace-nowrap text-lg"> Discover<span class="text-[#F44335]">-</span>
+            Interact<span class="text-[#F44335]">-</span> Engage </h3>
+          <h1 class="text-white text-3xl sm:text-7xl font-bold"> Connecting <span
+              class="text-[#F44335] underline cursor-pointer">talent</span> to <br> opportunity through <span
+              class="text-[#F44335] underline cursor-pointer">skills</span>
+          </h1>
+          <p class="text-[#FAFAFA]"> We foster a skill-focused environment enabling students to navigate their career
+            <br> with their self-paced learning journey and businesses to gain market-ready talent. </p>
+          <button class="btn-1" type="button">Ask questions</button>
+        </div>
+        <div>
+          <img src="/assets/Wave-DsUd5gc7.png" alt="">
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
