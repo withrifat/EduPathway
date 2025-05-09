@@ -7,6 +7,9 @@
     .navv {
         @apply hover:scale-105 transition-all text-[#F44335] hover:text-purple-600 hover:underline underline-offset-4;
     }
+    .customeBTN {
+        @apply bg-[#F44335] md:text-base text-xs md:py-3 py-1 md:px-6 px-2 rounded-md text-white font-semibold hover:bg-[#C3352A] transition hover:scale-105 hover:translate-x-1;
+    }
 
     .nav {
         @apply hover:scale-105 transition-all hover:text-blue-600 hover:underline underline-offset-4;
@@ -21,7 +24,7 @@
     }
 
     .btn-2 {
-        @apply bg-transparent text-[#F44335] md:py-2 py-1 px-4 rounded-full outline-none border-2 border-[#F44335] hover:bg-[#F44335] hover:text-white hover:border-[#F44335] transition-all duration-300 text-nowrap;
+        @apply bg-transparent text-[#F44335] md:py-2 py-1 px-4 rounded-full outline-none border-2 border-[#F44335] hover:bg-[#F44335] hover:text-white hover:border-[#F44335] transition hover:scale-105 hover:translate-x-1 text-nowrap;
     }
 
     .btn-3 {
@@ -31,4 +34,11 @@
     .team-card {
         @apply w-full p-5 flex md:flex-col md:text-center items-center gap-3 rounded-md shadow-xl bg-white dark:bg-[#2D3142] cursor-pointer hover:scale-105 transition-all duration-300;
     }
+
+    body {
+        @apply font-jakarta;
+    }
+}
+@theme {
+    --font-jakarta: "Plus Jakarta Sans", sans-serif;
 }
