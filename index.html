@@ -60,7 +60,8 @@
         </nav>
       </header>
       <!-- ------------------------steart hero section ------------------>
-      <section class="w-full min-h-dvh bg-[url('/src/img/bg.png')] bg-no-repeat bg-cover bg-center relative border-l-8 border-red-600">
+      <section
+        class="w-full min-h-dvh bg-[url('/src/img/bg.png')] bg-no-repeat bg-cover bg-center relative border-l-8 border-red-600">
         <!-- main content -->
         <div class="w-full text-center pt-32  px-4  ">
           <h4 class="text-white text-lg font-bold">Discover <span class="text-red-500">-</span> Interact <span
@@ -81,7 +82,12 @@
         </div>
         <!-- wave shape -->
         <div class="absolute bottom-0 left-0 w-full overflow-hidden">
-          <img class="select-none pointer-events-none w-full h-auto block" src="src/img/Wave.png" alt="image">
+          <!-- Light Mode Image -->
+          <img class="select-none pointer-events-none w-full h-auto block dark:hidden" src="src/img/Wave.png"
+            alt="image">
+          <!-- Dark Mode Image -->
+          <img class="select-none pointer-events-none w-full h-auto block hidden dark:block" src="src/img/Wavedark.png"
+            alt="image">
         </div>
       </section>
       <!-- services section and our enpire -->
