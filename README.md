@@ -43,3 +43,25 @@ To run this project locally:
 1. Clone the repository:
    ```bash
    git clone https://github.com/withrifat/EduPathway.git
+
+2. Open the project folder:
+   cd EduPathway
+
+3. Open index.html directly in your browser or use a live server.
+
+No build tools required — everything runs directly in the browser!
+
+📸 Features
+Responsive layout for mobile, tablet, and desktop
+
+Working hamburger menu for mobile navigation
+
+Dark mode toggle
+
+Hover effects on logo and nav items
+
+Clean and minimal design
+
+🙌 Author
+Built with 💙 by withrifat
+
