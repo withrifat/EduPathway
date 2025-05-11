@@ -65,3 +65,12 @@ Clean and minimal design
 🙌 Author
 Built with 💙 by withrifat
 
+📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+---
+
+You can simply copy-paste this into your `README.md` file in the root of your project.
+
+Would you like a badge section too (e.g., GitHub stars, license, etc.)?
+
